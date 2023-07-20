@@ -1,0 +1,146 @@
+/* resting */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*ears styling */
+
+body{
+    position: relative;
+}
+.ears
+{
+   position: absolute;
+    display: flex;
+    width:50%;
+    height: 200px;
+    justify-content: space-evenly;
+    /* outline: 2px solid red; */
+    top: -30px;
+    left: 25%;
+}
+
+.ears .ear
+{
+  
+    width: 150px;
+    height: 200px;
+    background-color: #fdb0c0;
+    border:2px solid rgb(54, 54, 54);
+    border-radius: 75px 75px 0 0 ;
+}
+/* face styling */
+.face {
+    margin: auto;
+    margin-top: 15%;
+    outline: 2px solid rgb(54, 54, 54);
+    width: 500px;
+    height: 500px;
+    background-color: #fdb0c0;
+    border-radius: 50%;
+    position: relative;
+}
+
+.eyes {
+    position: absolute;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 100px;
+    left: 50px;
+}
+.eyes .eye {
+    /* outline: 2px solid red; */
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+
+}
+
+.eye .eyeball {
+    /* outline: 2px solid gainsboro; */
+    margin: 20% auto ;
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+}
+.mid {
+    position: absolute;
+    width: 40%;
+    height:20%;
+    border-radius: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* outline:2px solid rebeccapurple; */
+    background-color: #f80024;
+    top: 60%;
+    left: 30%;
+    padding-inline: 1rem;
+}
+
+.mid .nose {
+   width:55px;
+   height: 55px;
+   background-color: black;
+   border-radius: 50%;
+}
+/* 
+
+
+
+.eyeball .retina {
+    width: 60%;
+    height: 60%;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+
+
+.mid .cheek {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 126, 147);
+    border-radius: 50%;
+    filter: blur(20px);
+}
+
+.mid .nose {
+    height: 70px;
+    width: 30px;
+    background-color: black;
+    border-radius: 75%;
+}
+
+.mouth {
+    width: 35%;
+    height: 90px;
+    outline: 2px solid red;
+    position: absolute;
+    top: 70%;
+    left: 32.5%;
+    background-color: #b53032;
+    border-radius: 8px 8px 100px 100px;
+    overflow: hidden;
+}
+
+.mouth .tongue {
+    margin: 50px 45px;
+    width: 50%;
+    height: 100px;
+    border-radius: 50%;
+
+    background-color: #f19c89;
+
+} */
